@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-color: #faaca8;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.title {
+    color: #f2709c;
+
+    text-transform: uppercase;
+}
+
+
+.days {
+    font-size: 24px;
+}
+
+.main {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#timer {
+    background-color: #DE6262;
+    border-radius: 45px;
+    font-size: 36px;
+}
+
+.hours,
+.minutes,
+.seconds {
+    display: inline-block;
+}
+
+#minutes::before {
+    content: ":";
+    padding-right: 10px;
+}
+
+#minutes::after {
+    content: ":";
+    padding-left: 10px;
+}
+
+#about {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#about .heart i {
+    color: #f2709c;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+
+}
+
+#about .specialday {
+    position: absolute;
+    top: 60%;
+    transform: translateX(-15px);
+    color: #f2709c;
+}
+
+
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+#music {
+    margin-top: 25px;
+    opacity: 0.5;
+    width: 500px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #ddd;
+    border: none;
+    outline: none;
+    width: 100%;
+
+}
+
+audio::-webkit-media-controls-timeline {}
