@@ -95,4 +95,13 @@ audio::-webkit-media-controls-panel {
 
 }
 
-audio::-webkit-media-controls-timeline {}
+#content {
+    margin-top: 25px;
+}
+
+#content::after,
+#content::before {
+    content: "\f004";
+    font-size: 25px;
+    color: #FFAFBD;
+}
